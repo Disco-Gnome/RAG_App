@@ -1,0 +1,39 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# .pdf and .csv files
+*.pdf
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# dotenv environment variables file
+.env
+
+# virtual environment
+venv
+
+# mkdocs documentation
+# /data/raw
+# /data/processed
+data/sentencetransformers
+data/faiss-db
+models/sentencetransformers
+
+# Jetbrains project
+.idea/misc.xml
