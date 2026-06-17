@@ -56,8 +56,8 @@ streamlit run app.py
 
 To run in a container:
 ```bash
-docker build -t lucy .
-docker run -p 8501:8501 lucy
+docker build -t RAG_App .
+docker run -p 8501:8501 RAG_App
 ```
 And open the app at http://localhost:8501/
 
