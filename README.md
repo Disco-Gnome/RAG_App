@@ -1,7 +1,6 @@
 # Custom RAG Engine
 
 This is a GenAI Streamlit application for RAG, allowing users to chat with agents using their own custom library of .pdfs.
-This project builds upon PDFLucy.
 
 ## Features
 - Process .pdf files using different approaches (selected by user)

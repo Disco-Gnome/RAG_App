@@ -1,5 +1,5 @@
-docker build -t pdflucy .
+docker build -t RAG_App .
 
-docker run -p 8501:8501 pdflucy
+docker run -p 8501:8501 RAG_App
 
 http://localhost:8501/
